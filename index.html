@@ -12,11 +12,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <!-- font awesome link start-->
   <script src="https://kit.fontawesome.com/fe4d6eb5e4.js" crossorigin="anonymous"></script>
   <!-- font awesome link end -->
 
-  <!-- tailwind custom color  -->
+
+  <!-- tailwind custom color start  -->
   <script>
     tailwind.config = {
       theme: {
@@ -28,6 +30,7 @@
       }
     }
   </script>
+  <!-- tailwind custom color end  -->
   <style>
     .font-manrope {
       font-family: 'Manrope', sans-serif;
@@ -58,12 +61,77 @@ tea time at The Tea House section start  -->
           <h1 class="text-7xl font-extrabold">It's good,<br>
             tea time at The <br>Tea House</h1>
           <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-          <button class="btn btn-primary">Explore More</button>
+          <button class="p-4 bg-orange-500 text-white">Explore More</button>
         </div>
       </div>
     </div>
+    <!-- It's good 
+    tea time at The Tea House section end  -->
   </header>
-  <main>
+  <main class="container mx-auto px-0 lg:px-22">
+    <!-- card section heading and paragraph start -->
+    <section class="mt-20  ">
+      <div class="text-center ">
+        <h3 class="text-4xl text-[#1C1C1C] font-extrabold mb-6">Our Featured Products</h3>
+        <p class="lg:max-w-3xl mx-auto mb-10">There are many variations of passages of Lorem Ipsum available, but
+          the majority have
+          suffered alteration in
+          some form,
+          by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+      <!-- card section heading and paragraph end -->
+
+      <!-- The card  section of tea start -->
+
+      <div class=" grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4">
+
+        <!-- first card -->
+        <div class="card w-96 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] lg:mr-3 gap-2">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="card w-96 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+
+          </div>
+        </div>
+        <!-- third card -->
+        <div class="card w-96 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+
+          </div>
+        </div>
+        <!-- fourth  card -->
+        <div class="card w-96 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]">
+          <figure class="px-10 pt-10">
+            <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+
+          </div>
+        </div>
+      </div>
+      <!-- The card  section of tea End  -->
+    </section>
 
   </main>
   <footer>
